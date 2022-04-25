@@ -7,8 +7,7 @@
 header{
     border: 3px groove rgba(88, 87, 87, 0.705);
     font-family: 'Montserrat', sans-serif;
-    background-color: rgba(131, 149, 153, 0.397)
-
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
 }
 
 img{
@@ -72,10 +71,14 @@ nav a{
     text-decoration: none;
     border: 3px groove rgba(88, 87, 87, 0.705);
     border-radius: 25px;
-    background-color: rgba(131, 149, 153, 0.397);
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
     font-style: bold;
     padding: 10px 10px 10px 10px;
     margin: 10px 10px 10px 10px;
+}
+
+nav a:hover{
+    color: black;
 }
 
 .article-home{
@@ -98,14 +101,15 @@ nav a{
 }
 
 .div-home{
-    border: 2px groove rgb(92, 0, 0);
-    background-color: rgba(255, 0, 0, 0.459);
+    border: 2px groove rgb(226, 0, 0);
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
     border-radius: 25px;
     width: 300px;
     margin-left: 775px;
     margin-top: 50px;
     padding-left: 25px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-iteration-count: infinite;
 }
 
 .article-portfolio{
@@ -300,11 +304,12 @@ footer{
     height: 110px;
     margin-top: 230px;
     line-height: 50px;
-    border: 2px groove rgb(0, 48, 92);
-    background-color: rgba(0, 204, 255, 0.219);
+    border: 2px groove rgb(226, 0, 0);
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
     border-radius: 25px;
     padding: 10px 10px 10px 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-iteration-count: infinite;
 }
 
 .article-me{
