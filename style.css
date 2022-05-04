@@ -74,6 +74,7 @@ nav a{
     text-decoration: none;
     border: 3px groove rgba(88, 87, 87, 0.705);
     border-radius: 25px;
+    color: blanchedalmond;
     background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
     font-style: bold;
     padding: 10px 10px 10px 10px;
@@ -108,12 +109,16 @@ nav a:hover{
     background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
     border-radius: 25px;
     width: 450px;
+    height: 530px;
     margin-left: 712.5px;
     margin-top: 50px;
     padding-left: 25px;
     padding-top: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     animation-iteration-count: infinite;
+}
+
+.footer{
 }
 
 .article-portfolio{
@@ -199,7 +204,7 @@ fieldset{
     font-size: larger
 }
 
-/* aaaw */
+
 
 .facebook{
     width: 18px;
