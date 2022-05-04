@@ -150,72 +150,12 @@ nav a:hover{
 
 fieldset{
     border: 2px groove rgb(0, 48, 92);
-    width: 20px;
-    margin-top: 150px;
-}
-
-.nombre{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color:rgb(236, 226, 206);
-    color: rgb(88, 88, 88);
-}
-.apellido-espacio{
+    width: 1300px;
+    margin-top: 170px;
     margin-left: 20px;
+    padding-left: 20px;
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
 }
-.apellido{
-    background-color:rgb(236, 226, 206);
-    color: rgb(88, 88, 88);
-}
-.email{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color:rgb(236, 226, 206);
-    color: rgb(88, 88, 88);
-}
-
-.consulta-espacio{
-    background-color:rgb(236, 226, 206);
-    color: rgb(88, 88, 88);
-}
-.consulta{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    font-size: larger;
-}
-
-.enviar-limpiar{
-    margin-top: 20px;
-}
-
-.enviar-consulta{
-    color: rgb(88, 88, 88);
-    background-color:rgb(236, 226, 206);
-}
-.limpiar-consulta{
-    color: rgb(88, 88, 88);
-    background-color:rgb(236, 226, 206);
-}
-
-.legend{
-    font-size: larger
-}
-
-
-
-.facebook{
-    width: 18px;
-    height: 18px;
-    margin-left: 5px;
-}
-
-
-.instagram{
-    width: 18px;
-    height: 18px;
-    margin-left: 5px;
-}
-
 
 .ul-develop{
     width: 450px;
@@ -236,7 +176,7 @@ fieldset{
     border-radius: 25px;
     padding-bottom: 25px;
     line-height: 40px;
-    margin-right: 100px;
+    margin-right: 250px;
     padding-top: 25px;
     padding-bottom: 25px;
     padding-right: 25px;
@@ -271,6 +211,7 @@ fieldset{
     width: 500px;
     height: 500px;
     margin-top: 100px;
+    margin bottom: 50px;
     margin-left: 15px;
     border: 2px groove rgb(0, 48, 92);
 }
