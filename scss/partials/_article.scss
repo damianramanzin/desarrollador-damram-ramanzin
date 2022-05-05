@@ -1,0 +1,35 @@
+.article-home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-right: 440px;
+    margin-top: 50px;
+}
+
+.article-h2{
+    border: 2px groove $borderblue;
+    background-color: rgba(0, 204, 255, 0.219);
+    border-radius: 25px;
+    margin-left: 230px;
+    padding: 10px 10px 10px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 40px;
+}
+
+.article-portfolio{
+    margin-top: 50px;
+    margin-left: 10px;
+}
+
+.article-servicios{
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-left: 250px;
+}
+
+.article-me{
+    display: flex;
+    flex-direction: row;
+}

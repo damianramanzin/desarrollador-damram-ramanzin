@@ -1,0 +1,32 @@
+.div-home{
+    border: 2px groove rgb(226, 0, 0);
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
+    border-radius: 25px;
+    width: 450px;
+    height: 530px;
+    margin-left: 712.5px;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-top: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-iteration-count: infinite;
+}
+
+.h3-port{
+    border: 2px groove $borderblue;
+    background-color: rgba(0, 204, 255, 0.219);
+    border-radius: 25px;
+    width: 270px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+fieldset{
+    border: 2px groove $borderblue;
+    width: 1300px;
+    margin-top: 170px;
+    margin-left: 20px;
+    padding-left: 20px;
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
+}

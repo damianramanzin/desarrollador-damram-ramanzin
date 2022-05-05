@@ -1,7 +1,6 @@
 {
   "name": "desarrollador-damram-ramanzin",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build-css": "node-sass --include-path scss scss/prueba.scss css/prueba.css",
@@ -21,5 +20,7 @@
   "dependencies": {
     "node-sass": "^7.0.1",
     "nodemon": "^2.0.16"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

@@ -1,0 +1,27 @@
+.p-me{
+    margin-left: 160px;
+    width: 420px;
+    height: 430px;
+    margin-top: 120px;
+    line-height: 50px;
+    border: 2px groove $borderblue;
+    background-color: rgba(0, 204, 255, 0.219);
+    border-radius: 25px;
+    padding: 10px 10px 0px 20px;
+    font-size:large;
+
+}
+
+.p-me2{
+    margin-left: 160px;
+    width: 400px;
+    height: 170px;
+    margin-top: 230px;
+    line-height: 50px;
+    border: 2px groove rgb(226, 0, 0);
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
+    border-radius: 25px;
+    padding: 10px 10px 10px 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation-iteration-count: infinite;
+}

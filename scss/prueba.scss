@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=PT+Sans+Narrow&display=swap');
+*{
+    color:rgb(236, 226, 206);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 @import "variables/variables";
 @import "sass2/condicionales";
 @import "sass2/extend";
@@ -5,9 +14,10 @@
 @import "sass2/mixins";
 @import "sass2/operaciones";
 @import "partials/header";
-@import "partials/section";
-@import "partials/footer";
-*{
-    margin: 0;
-    padding: 0;
-}
+@import "partials/body";
+@import "partials/nav";
+@import "partials/article";
+@import "partials/img";
+@import "partials/p";
+@import "partials/ul";
+@import "partials/else";

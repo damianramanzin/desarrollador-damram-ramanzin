@@ -1,0 +1,28 @@
+header{
+    border: 3px groove $bordergray;
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
+}
+
+img{
+    height: 70px;
+    width: 70px;
+    margin-top: 32px;
+    margin-left: 20px;
+}
+
+.h-header{
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+.h2-header{
+    margin-left: 122px;
+    margin-top:0.5px;
+}
+
+.div-header{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
