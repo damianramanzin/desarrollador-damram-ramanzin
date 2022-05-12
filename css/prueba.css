@@ -20,11 +20,11 @@ img {
 
 .h-header {
   padding-left: 30px;
-  padding-bottom: 20px; }
+  margin-top: 17px; }
 
 .h2-header {
   margin-left: 122px;
-  margin-top: 0.5px; }
+  margin-bottom: 10px; }
 
 .div-header {
   display: flex;
@@ -162,7 +162,7 @@ nav a:hover {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   animation-iteration-count: infinite; }
 
-.ul-develop {
+.ul-develop, .ul-mante {
   width: 450px;
   border: 2px groove #00305c;
   background-color: rgba(0, 204, 255, 0.219);
@@ -173,16 +173,7 @@ nav a:hover {
   line-height: 30px; }
 
 .ul-mante {
-  width: 450px;
-  border: 2px groove #00305c;
-  background-color: rgba(0, 204, 255, 0.219);
-  border-radius: 25px;
-  padding-bottom: 25px;
-  line-height: 40px;
-  margin-right: 250px;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 25px; }
+  margin-right: 270px; }
 
 .div-home {
   border: 2px groove #e20000;
