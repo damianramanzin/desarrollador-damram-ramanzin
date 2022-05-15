@@ -8,9 +8,10 @@
   box-sizing: border-box; }
 
 header {
-  border: 3px groove rgba(88, 87, 87, 0.705);
+  border: 3px groove #00305c;
   font-family: 'Montserrat', sans-serif;
-  background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616)); }
+  background-color: rgba(70, 70, 70, 0.514);
+  padding-bottom: 40px; }
 
 img {
   height: 70px;
@@ -20,11 +21,7 @@ img {
 
 .h-header {
   padding-left: 30px;
-  margin-top: 17px; }
-
-.h2-header {
-  margin-left: 122px;
-  margin-bottom: 10px; }
+  font-size: 200%; }
 
 .div-header {
   display: flex;
@@ -54,18 +51,14 @@ body {
   background-image: url(../Assets/Sin-titulo.jpg);
   background-size: cover; }
 
-nav {
-  display: flex;
-  justify-content: space-between;
-  font-size: larger; }
-
 nav a {
   text-decoration: none;
-  border: 3px groove rgba(88, 87, 87, 0.705);
+  border: 3px groove #00305c;
   border-radius: 25px;
   color: blanchedalmond;
-  background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
+  background-color: rgba(70, 70, 70, 0.685);
   font-style: bold;
+  font-size: larger;
   padding: 10px 10px 10px 10px;
   margin: 10px 10px 10px 10px; }
 
@@ -90,7 +83,7 @@ nav a:hover {
 
 .article-portfolio {
   margin-top: 50px;
-  margin-left: 10px; }
+  margin-right: 800px; }
 
 .article-servicios {
   display: flex;
@@ -98,10 +91,6 @@ nav a:hover {
   flex-direction: row;
   margin-top: 100px;
   margin-left: 250px; }
-
-.article-me {
-  display: flex;
-  flex-direction: row; }
 
 .img-port {
   width: 650px;
@@ -138,10 +127,9 @@ nav a:hover {
   border: 2px groove #00305c; }
 
 .p-me {
-  margin-left: 160px;
+  margin-left: 30px;
   width: 420px;
   height: 430px;
-  margin-top: 120px;
   line-height: 50px;
   border: 2px groove #00305c;
   background-color: rgba(0, 204, 255, 0.219);
@@ -150,10 +138,9 @@ nav a:hover {
   font-size: large; }
 
 .p-me2 {
-  margin-left: 160px;
+  margin-left: 30px;
   width: 400px;
   height: 170px;
-  margin-top: 230px;
   line-height: 50px;
   border: 2px groove #e20000;
   background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
@@ -170,21 +157,23 @@ nav a:hover {
   padding-bottom: 25px;
   padding-right: 25px;
   padding-top: 25px;
+  padding-left: 25px;
   line-height: 30px; }
 
 .ul-mante {
-  margin-right: 270px; }
+  margin-right: 370px; }
 
 .div-home {
   border: 2px groove #e20000;
   background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
   border-radius: 25px;
-  width: 450px;
-  height: 530px;
-  margin-left: 712.5px;
+  width: 500px;
+  height: 350px;
+  margin-left: 585px;
   margin-top: 50px;
-  padding-left: 25px;
-  padding-top: 20px;
+  padding-left: 15px;
+  padding-right: 30px;
+  padding-top: 10px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   animation-iteration-count: infinite; }
 

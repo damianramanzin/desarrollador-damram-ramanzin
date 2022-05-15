@@ -1,7 +1,8 @@
 header{
-    border: 3px groove $bordergray;
+    border: 3px groove $borderblue;
     font-family: 'Montserrat', sans-serif;
-    background-image: linear-gradient(to right, rgba(131, 149, 153, 0.397), rgba(0, 255, 221, 0.301), rgba(54, 54, 54, 0.616));
+    background-color: rgba(70, 70, 70, 0.514);
+    padding-bottom: 40px;
 }
 
 img{
@@ -13,12 +14,7 @@ img{
 
 .h-header{
     padding-left: 30px;
-    margin-top: 17px;
-}
-
-.h2-header{
-    margin-left: 122px;
-    margin-bottom: 10px;
+    font-size:200%;
 }
 
 .div-header{
